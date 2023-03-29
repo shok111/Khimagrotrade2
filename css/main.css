@@ -294,7 +294,11 @@ body {
   font-size: 24px;
   color: #333333;
   transition: color 0.3s;
-  padding-bottom: 5px;
+  padding-bottom: 10px;
+}
+
+.item-portfolio__title:hover {
+  color: #888888;
 }
 
 .phones {
@@ -362,8 +366,13 @@ body {
     margin-right: 10px;
   }
 
+  .logo__type {
+    flex: 1 1 auto;
+    max-width: 50%;
+  }
+
   .logo__container {
-    min-height: 70px;
+    min-height: 60px;
   }
 
   .burger__link {
@@ -418,14 +427,14 @@ body {
     margin-right: 0px;
   }
 
-  .logo__image1 {
-    max-width: 10%;
+  .logo__type {
+    flex: 1 1 auto;
+    max-width: 40%;
   }
 
   .logo__image2 {
     margin-top: 5px;
     padding-left: 0px;
-    max-width: 60%;
   }
 
   .phone__link1,
@@ -436,7 +445,7 @@ body {
   }
 
   .phone {
-    margin-left: -120px;
+    margin-left: 0px;
   }
 
   .phone__link::before {
