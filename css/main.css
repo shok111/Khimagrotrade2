@@ -429,7 +429,7 @@ body {
 
   .logo__type {
     flex: 1 1 auto;
-    max-width: 40%;
+    max-width: 50%;
   }
 
   .logo__image2 {
@@ -511,12 +511,16 @@ body {
     display: none;
   }
 
+  .logo__type {
+    max-width: 70%;
+  }
+
   .logo__image1 {
     display: none;
   }
 
   .phone {
-    margin-left: -130px;
+    margin-left: -50px;
   }
 
   .phone__link1,
@@ -598,6 +602,10 @@ body {
     margin: 3px -1px;
   }
 
+  .logo__image2 {
+    margin-top: 0px;
+  }
+
   .portfolio__column {
     flex: 0 1 50%;
   }
@@ -657,6 +665,10 @@ body {
     margin: 3px 0px;
   }
 
+  .logo__image2 {
+    margin-top: 0px;
+  }
+
   .item-portfolio__title {
     font-size: 14px;
   }
@@ -665,5 +677,13 @@ body {
 @media (max-width:350px) {
   .phones a {
     overflow: hidden;
+  }
+
+  .logo__image2 {
+    margin-top: 0px;
+  }
+
+  .logo__type {
+    max-width: 100%;
   }
 }
