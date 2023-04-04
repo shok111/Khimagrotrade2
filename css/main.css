@@ -1,5 +1,6 @@
 @import url("reset.css");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+@import url("tovar.css");
 
 html,
 body {
@@ -541,6 +542,10 @@ body {
 
   .office__link {
     font-size: 14px;
+  }
+
+  .header__container {
+    min-height: 35px;
   }
 
   .phones {
